@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752C77181F793FBA00294E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C77171F793FBA00294E8D /* AppDelegate.swift */; };
+		752C771A1F793FBA00294E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C77191F793FBA00294E8D /* ViewController.swift */; };
+		752C771D1F793FBA00294E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752C771B1F793FBA00294E8D /* Main.storyboard */; };
+		752C771F1F793FBA00294E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752C771E1F793FBA00294E8D /* Assets.xcassets */; };
+		752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752C77201F793FBA00294E8D /* LaunchScreen.storyboard */; };
+		752C772D1F793FBA00294E8D /* educational_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C772C1F793FBA00294E8D /* educational_musicTests.swift */; };
+		752C77381F793FBA00294E8D /* educational_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C77371F793FBA00294E8D /* educational_musicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		752C77291F793FBA00294E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752C770C1F793FB900294E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752C77131F793FB900294E8D;
+			remoteInfo = "educational music";
+		};
+		752C77341F793FBA00294E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752C770C1F793FB900294E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752C77131F793FB900294E8D;
+			remoteInfo = "educational music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752C77141F793FBA00294E8D /* educational music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "educational music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752C77171F793FBA00294E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		752C77191F793FBA00294E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		752C771C1F793FBA00294E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		752C771E1F793FBA00294E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		752C77211F793FBA00294E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		752C77231F793FBA00294E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752C77281F793FBA00294E8D /* educational musicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "educational musicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752C772C1F793FBA00294E8D /* educational_musicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educational_musicTests.swift; sourceTree = "<group>"; };
+		752C772E1F793FBA00294E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752C77331F793FBA00294E8D /* educational musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "educational musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752C77371F793FBA00294E8D /* educational_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educational_musicUITests.swift; sourceTree = "<group>"; };
+		752C77391F793FBA00294E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		752C77111F793FB900294E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C77251F793FBA00294E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C77301F793FBA00294E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752C770B1F793FB900294E8D = {
+			isa = PBXGroup;
+			children = (
+				752C77161F793FBA00294E8D /* educational music */,
+				752C772B1F793FBA00294E8D /* educational musicTests */,
+				752C77361F793FBA00294E8D /* educational musicUITests */,
+				752C77151F793FBA00294E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		752C77151F793FBA00294E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				752C77141F793FBA00294E8D /* educational music.app */,
+				752C77281F793FBA00294E8D /* educational musicTests.xctest */,
+				752C77331F793FBA00294E8D /* educational musicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		752C77161F793FBA00294E8D /* educational music */ = {
+			isa = PBXGroup;
+			children = (
+				752C77171F793FBA00294E8D /* AppDelegate.swift */,
+				752C77191F793FBA00294E8D /* ViewController.swift */,
+				752C771B1F793FBA00294E8D /* Main.storyboard */,
+				752C771E1F793FBA00294E8D /* Assets.xcassets */,
+				752C77201F793FBA00294E8D /* LaunchScreen.storyboard */,
+				752C77231F793FBA00294E8D /* Info.plist */,
+			);
+			path = "educational music";
+			sourceTree = "<group>";
+		};
+		752C772B1F793FBA00294E8D /* educational musicTests */ = {
+			isa = PBXGroup;
+			children = (
+				752C772C1F793FBA00294E8D /* educational_musicTests.swift */,
+				752C772E1F793FBA00294E8D /* Info.plist */,
+			);
+			path = "educational musicTests";
+			sourceTree = "<group>";
+		};
+		752C77361F793FBA00294E8D /* educational musicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				752C77371F793FBA00294E8D /* educational_musicUITests.swift */,
+				752C77391F793FBA00294E8D /* Info.plist */,
+			);
+			path = "educational musicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		752C77131F793FB900294E8D /* educational music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752C773C1F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational music" */;
+			buildPhases = (
+				752C77101F793FB900294E8D /* Sources */,
+				752C77111F793FB900294E8D /* Frameworks */,
+				752C77121F793FB900294E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "educational music";
+			productName = "educational music";
+			productReference = 752C77141F793FBA00294E8D /* educational music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		752C77271F793FBA00294E8D /* educational musicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752C773F1F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational musicTests" */;
+			buildPhases = (
+				752C77241F793FBA00294E8D /* Sources */,
+				752C77251F793FBA00294E8D /* Frameworks */,
+				752C77261F793FBA00294E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752C772A1F793FBA00294E8D /* PBXTargetDependency */,
+			);
+			name = "educational musicTests";
+			productName = "educational musicTests";
+			productReference = 752C77281F793FBA00294E8D /* educational musicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		752C77321F793FBA00294E8D /* educational musicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752C77421F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational musicUITests" */;
+			buildPhases = (
+				752C772F1F793FBA00294E8D /* Sources */,
+				752C77301F793FBA00294E8D /* Frameworks */,
+				752C77311F793FBA00294E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752C77351F793FBA00294E8D /* PBXTargetDependency */,
+			);
+			name = "educational musicUITests";
+			productName = "educational musicUITests";
+			productReference = 752C77331F793FBA00294E8D /* educational musicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		752C770C1F793FB900294E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Celine Hamza";
+				TargetAttributes = {
+					752C77131F793FB900294E8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					752C77271F793FBA00294E8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 752C77131F793FB900294E8D;
+					};
+					752C77321F793FBA00294E8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 752C77131F793FB900294E8D;
+					};
+				};
+			};
+			buildConfigurationList = 752C770F1F793FB900294E8D /* Build configuration list for PBXProject "educational music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 752C770B1F793FB900294E8D;
+			productRefGroup = 752C77151F793FBA00294E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				752C77131F793FB900294E8D /* educational music */,
+				752C77271F793FBA00294E8D /* educational musicTests */,
+				752C77321F793FBA00294E8D /* educational musicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		752C77121F793FB900294E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */,
+				752C771F1F793FBA00294E8D /* Assets.xcassets in Resources */,
+				752C771D1F793FBA00294E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C77261F793FBA00294E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C77311F793FBA00294E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		752C77101F793FB900294E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C771A1F793FBA00294E8D /* ViewController.swift in Sources */,
+				752C77181F793FBA00294E8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C77241F793FBA00294E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C772D1F793FBA00294E8D /* educational_musicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752C772F1F793FBA00294E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C77381F793FBA00294E8D /* educational_musicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752C772A1F793FBA00294E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752C77131F793FB900294E8D /* educational music */;
+			targetProxy = 752C77291F793FBA00294E8D /* PBXContainerItemProxy */;
+		};
+		752C77351F793FBA00294E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752C77131F793FB900294E8D /* educational music */;
+			targetProxy = 752C77341F793FBA00294E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		752C771B1F793FBA00294E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752C771C1F793FBA00294E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		752C77201F793FBA00294E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752C77211F793FBA00294E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		752C773A1F793FBA00294E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		752C773B1F793FBA00294E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		752C773D1F793FBA00294E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "educational music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		752C773E1F793FBA00294E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "educational music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		752C77401F793FBA00294E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "educational musicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/educational music.app/educational music";
+			};
+			name = Debug;
+		};
+		752C77411F793FBA00294E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "educational musicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/educational music.app/educational music";
+			};
+			name = Release;
+		};
+		752C77431F793FBA00294E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "educational musicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "educational music";
+			};
+			name = Debug;
+		};
+		752C77441F793FBA00294E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "educational musicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FC-Incorporated.educational-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "educational music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752C770F1F793FB900294E8D /* Build configuration list for PBXProject "educational music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752C773A1F793FBA00294E8D /* Debug */,
+				752C773B1F793FBA00294E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752C773C1F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752C773D1F793FBA00294E8D /* Debug */,
+				752C773E1F793FBA00294E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		752C773F1F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational musicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752C77401F793FBA00294E8D /* Debug */,
+				752C77411F793FBA00294E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		752C77421F793FBA00294E8D /* Build configuration list for PBXNativeTarget "educational musicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752C77431F793FBA00294E8D /* Debug */,
+				752C77441F793FBA00294E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 752C770C1F793FB900294E8D /* Project object */;
+}
