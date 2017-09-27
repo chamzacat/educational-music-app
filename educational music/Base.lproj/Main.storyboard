@@ -1,26 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="educational_music" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dob-RO-Ehk">
+                                <rect key="frame" x="225" y="156" width="319" height="44.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="educational music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rng-9f-mxo">
+                                        <rect key="frame" x="0.0" y="0.0" width="319" height="44.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="319" id="qmc-aZ-vfG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="39"/>
+                                        <color key="textColor" red="0.23161642982138292" green="0.65398316062176165" blue="0.62914062338867671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWU-yR-Lgw">
+                                <rect key="frame" x="429" y="457" width="88" height="73"/>
+                                <color key="backgroundColor" red="0.25451682240000001" green="0.48439042500000001" blue="0.8963932966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="73" id="DmU-LC-Qxr"/>
+                                    <constraint firstAttribute="width" constant="72" id="OXZ-Je-Kqa"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="88" id="UDX-2Z-vtX"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="73" id="WkT-bV-kc2"/>
+                                    <constraint firstAttribute="height" constant="60" id="lqf-vC-q2g"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="88" id="moJ-CN-S1m"/>
+                                </constraints>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.35282397637462215" green="1" blue="0.96018372492703352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.28320327831550607" green="0.58861058446342274" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjK-SC-RNP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZ1-Iw-3uV">
+                                <rect key="frame" x="261" y="457" width="98" height="69"/>
+                                <color key="backgroundColor" red="0.25451682240000001" green="0.48439042500000001" blue="0.8963932966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="923-rn-u2h"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="9TP-3X-po1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="agx-yQ-wzm"/>
+                                    <constraint firstAttribute="width" constant="98" id="o47-Xz-6TX"/>
+                                </constraints>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" red="0.35282397640000002" green="1" blue="0.96018372490000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.28961854305990853" green="0.41920165584493907" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zZ8-JV-CgB"/>
+                                    <action selector="pausebutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7W-Vf-eM6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87337780745824478" green="1" blue="0.9747944648563156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RWU-yR-Lgw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6T7-Oo-yKO"/>
+                            <constraint firstItem="Dob-RO-Ehk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9YD-ge-hpT"/>
+                            <constraint firstItem="RWU-yR-Lgw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="br1-8J-D6M"/>
+                            <constraint firstItem="RWU-yR-Lgw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uo9-at-tmQ"/>
+                            <constraint firstItem="Dob-RO-Ehk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="136" id="v0n-uw-RET"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-70" y="-121"/>
         </scene>
     </scenes>
 </document>

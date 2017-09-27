@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func pausebutton(_ sender: Any) {
+        print ("pause buton has been pressed!!! ;)")
+        
+    }
+  
+  
 
+    @IBAction func playbutton(_ sender: Any) {
+        print ("playbutton has been pressed!!! :)")
+    }
 }
+
+
+
+
 
