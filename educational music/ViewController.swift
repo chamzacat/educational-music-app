@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       label.text = "welcome!!!!!!!"
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,19 +22,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+  
     @IBAction func pausebutton(_ sender: Any) {
-        print ("pause buton has been pressed!!! ;)")
         
+        print (" pausebutton has been pressed!!")
     }
   
-  
+    
 
     @IBAction func playbutton(_ sender: Any) {
         print ("playbutton has been pressed!!! :)")
     }
 }
-
-
-
 
 
