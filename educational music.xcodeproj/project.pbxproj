@@ -14,8 +14,6 @@
 		752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752C77201F793FBA00294E8D /* LaunchScreen.storyboard */; };
 		752C772D1F793FBA00294E8D /* educational_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C772C1F793FBA00294E8D /* educational_musicTests.swift */; };
 		752C77381F793FBA00294E8D /* educational_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C77371F793FBA00294E8D /* educational_musicUITests.swift */; };
-		75CB7A2B1F7BD05600C01B03 /* modern-music-notes-vector-pack.webp in Resources */ = {isa = PBXBuildFile; fileRef = 75CB7A2A1F7BD05600C01B03 /* modern-music-notes-vector-pack.webp */; };
-		75CB7A2D1F7BD08900C01B03 /* treble-clef-1911561_960_720 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 75CB7A2C1F7BD08900C01B03 /* treble-clef-1911561_960_720 (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		752C77331F793FBA00294E8D /* educational musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "educational musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752C77371F793FBA00294E8D /* educational_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educational_musicUITests.swift; sourceTree = "<group>"; };
 		752C77391F793FBA00294E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75CB7A2A1F7BD05600C01B03 /* modern-music-notes-vector-pack.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "modern-music-notes-vector-pack.webp"; path = "../../modern-music-notes-vector-pack.webp"; sourceTree = "<group>"; };
-		75CB7A2C1F7BD08900C01B03 /* treble-clef-1911561_960_720 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "treble-clef-1911561_960_720 (1).png"; path = "../../treble-clef-1911561_960_720 (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +101,6 @@
 				752C77191F793FBA00294E8D /* ViewController.swift */,
 				752C771B1F793FBA00294E8D /* Main.storyboard */,
 				752C771E1F793FBA00294E8D /* Assets.xcassets */,
-				75CB7A2C1F7BD08900C01B03 /* treble-clef-1911561_960_720 (1).png */,
-				75CB7A2A1F7BD05600C01B03 /* modern-music-notes-vector-pack.webp */,
 				752C77201F793FBA00294E8D /* LaunchScreen.storyboard */,
 				752C77231F793FBA00294E8D /* Info.plist */,
 			);
@@ -238,10 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75CB7A2B1F7BD05600C01B03 /* modern-music-notes-vector-pack.webp in Resources */,
 				752C77221F793FBA00294E8D /* LaunchScreen.storyboard in Resources */,
 				752C771F1F793FBA00294E8D /* Assets.xcassets in Resources */,
-				75CB7A2D1F7BD08900C01B03 /* treble-clef-1911561_960_720 (1).png in Resources */,
 				752C771D1F793FBA00294E8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
